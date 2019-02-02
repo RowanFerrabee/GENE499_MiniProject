@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<screen>
+    <text>
+        <content>
+            Hello! I am Omega.
+            New Line 1
+            New Line 2
+        </content>
+        <font>Ariel</font>
+        <font-size>30</font-size>
+        <fg-color>#FFFFFF</fg-color>
+        <bg-color>#000000</bg-color>
+        <width>80</width>
+        <height>10</height>
+    </text>
+    <delay>
+        2400
+    </delay>
+</screen>

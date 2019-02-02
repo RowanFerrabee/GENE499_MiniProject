@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<screen>
+    <text>
+        <content>
+            Omega screen 2.
+        </content>
+        <anchor>e</anchor>
+        <fg-color>#AAAAAA</fg-color>
+        <bg-color>#000000</bg-color>
+        <width>30</width>
+        <height>10</height>
+        <font-size>40</font-size>
+    </text>
+    <text>
+        <content>
+            Omega screen 2, part 2!
+        </content>
+        <anchor>w</anchor>
+        <fg-color>#FF00FF</fg-color>
+        <bg-color>#000000</bg-color>
+        <width>80</width>
+        <height>10</height>
+        <font-size>20</font-size>
+    </text>
+    <delay>
+        2500
+    </delay>
+</screen>

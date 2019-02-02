@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<screen>
+    <image>
+        <image-path>images/bm_logo.jpg</image-path>
+        <bg-color>#000000</bg-color>
+        <width>600</width>
+        <height>400</height>
+        <fg-color>#FFFFFF</fg-color>
+        <bg-color>#000000</bg-color>
+    </image>
+    <delay>
+        2500
+    </delay>
+</screen>
