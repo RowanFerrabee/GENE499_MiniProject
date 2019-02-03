@@ -2,8 +2,7 @@
 <screen>
     <text>
         <content>
-                        I am Omega.
-
+           Yes                  or                  No
 
 
 
@@ -18,6 +17,6 @@
         <height>10</height>
     </text>
     <delay>
-        2000
+        4000
     </delay>
 </screen>

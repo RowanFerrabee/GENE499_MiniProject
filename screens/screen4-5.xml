@@ -2,7 +2,8 @@
 <screen>
     <text>
         <content>
-                        I am Omega.
+            Do you think you can beat me?
+            I have never been wrong.
 
 
 
@@ -11,13 +12,13 @@
 
         </content>
         <font>Bebas Neue</font>
-        <font-size>120</font-size>
+        <font-size>100</font-size>
         <fg-color>#AAAAAA</fg-color>
         <bg-color>#000000</bg-color>
         <width>80</width>
         <height>10</height>
     </text>
     <delay>
-        2000
+        4000
     </delay>
 </screen>

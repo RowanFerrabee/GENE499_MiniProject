@@ -2,22 +2,22 @@
 <screen>
     <text>
         <content>
-                        I am Omega.
-
-
+            In the box on the right, 
+            there is either a million dollars 
+            or nothing. 
 
 
 
 
         </content>
         <font>Bebas Neue</font>
-        <font-size>120</font-size>
+        <font-size>100</font-size>
         <fg-color>#AAAAAA</fg-color>
         <bg-color>#000000</bg-color>
         <width>80</width>
         <height>10</height>
     </text>
     <delay>
-        2000
+        5000
     </delay>
 </screen>

@@ -3,7 +3,8 @@ import tkinter
 import time
 import xml.etree.ElementTree as ET
 
-screen_names = ['hello.xml', 'screen2.xml', 'image.xml']
+screen_names = ['screen12.xml']
+#'screen1.xml', 'screen2.xml', 'screen2-3.xml', 'screen3.xml', 'screen4.xml', 'screen5.xml', 'YesorNo.xml', 'screen6.xml', 'screen7.xml', 'screen8.xml', 'screen9.xml', 'screen10.xml', 'screen11.xml', 'screen12.xml']
 
 root = tkinter.Tk()
 root.attributes('-fullscreen', True)

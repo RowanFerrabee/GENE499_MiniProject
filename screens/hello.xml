@@ -2,18 +2,60 @@
 <screen>
     <text>
         <content>
-            Hello! I am Omega.
-            New Line 1
-            New Line 2
+            Hello. 
         </content>
-        <font>Ariel</font>
+        <font>Helvetica</font>
         <font-size>30</font-size>
-        <fg-color>#FFFFFF</fg-color>
+        <fg-color>#AAAAAA</fg-color>
         <bg-color>#000000</bg-color>
         <width>80</width>
         <height>10</height>
     </text>
     <delay>
-        2400
+        3000
     </delay>
 </screen>
+    <text>
+        <content>
+            I am Omega.
+        </content>
+        <font>Helvetica</font>
+        <font-size>30</font-size>
+        <fg-color>#AAAAAA</fg-color>
+        <bg-color>#000000</bg-color>
+        <width>80</width>
+        <height>10</height>
+    </text>
+    <delay>
+        3000
+    </delay>
+<screen>
+    <text>
+        <content>
+            I am a supercomputer and I can predict the future. 
+        </content>
+        <font>Helvetica</font>
+        <font-size>30</font-size>
+        <fg-color>#AAAAAA</fg-color>
+        <bg-color>#000000</bg-color>
+        <width>80</width>
+        <height>10</height>
+    </text>
+    <delay>
+        3000
+    </delay>
+<screen>
+    <text>
+        <content>
+            I am going to give you a choice.
+        </content>
+        <font>Helvetica</font>
+        <font-size>30</font-size>
+        <fg-color>#AAAAAA</fg-color>
+        <bg-color>#000000</bg-color>
+        <width>80</width>
+        <height>10</height>
+    </text>
+    <delay>
+        3000
+    </delay>
