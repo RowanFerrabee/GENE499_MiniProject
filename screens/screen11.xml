@@ -2,16 +2,14 @@
 <screen>
     <text>
         <content>
-           If I think you will open both boxes, 
-           I will put nothing in box B. 
-
-
-
-
+         If I think you will 
+          open both boxes, 
+      I will put nothing in the   
+          box on the right. 
         </content>        
         <font>Bebas Neue</font>
-        <font-size>100</font-size>
-        <fg-color>#AAAAAA</fg-color>
+        <font-size>60</font-size>
+        <fg-color>#FFFFFF</fg-color>
         <bg-color>#000000</bg-color>
         <width>80</width>
         <height>10</height>

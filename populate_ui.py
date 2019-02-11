@@ -45,7 +45,7 @@ def make_text_ui(screen_frame, config_data):
 def make_image_ui(screen_frame, config_data):
     ui_height =  get_val(config_data.find('height'), 50)
     ui_width =   get_val(config_data.find('width'), 50)
-    anchor =     get_val(config_data.find('anchor'), 'w')
+    anchor =     get_val(config_data.find('anchor'), 'nw')
     image_path = get_val(config_data.find('image-path'), '')
     bg_color =  get_val(config_data.find('bg-color'), '#000000')
     fg_color =  get_val(config_data.find('fg-color'), '#FFFFFF')
@@ -67,7 +67,35 @@ def make_image_ui(screen_frame, config_data):
 
     image_ui.image=ph
 
-    image_ui.grid()
+    image_ui.pack()
 
     return image_ui
 
+def make_image_ui_from_path(screen_frame, path):
+    ui_height =  900
+    ui_width =   1600
+    anchor =     'nw'
+    image_path = path
+    bg_color =   '#000000'
+    fg_color =   '#FFFFFF'
+
+    im = Image.open(image_path)
+    ph = ImageTk.PhotoImage(im)
+
+    image_ui = tkinter.Label(screen_frame,
+        anchor=anchor,
+        image=ph,
+        bg=bg_color,
+        fg=fg_color,
+        height=ui_height,
+        width=ui_width,
+        padx=0,
+        pady=0,
+        highlightthickness=0,
+        bd=1)
+
+    image_ui.image=ph
+
+    image_ui.pack()
+
+    return image_ui

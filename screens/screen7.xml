@@ -2,17 +2,14 @@
 <screen>
     <text>
         <content>
-            In the box on the right, 
-            there is either a million dollars 
-            or nothing. 
-
-
-
-
+    
+         In the box on the right, 
+    there is either a million dollars 
+          or nothing. 
         </content>
         <font>Bebas Neue</font>
-        <font-size>100</font-size>
-        <fg-color>#AAAAAA</fg-color>
+        <font-size>60</font-size>
+        <fg-color>#FFFFFF</fg-color>
         <bg-color>#000000</bg-color>
         <width>80</width>
         <height>10</height>

@@ -2,17 +2,14 @@
 <screen>
     <text>
         <content>
-                The contents of the box 
-                to your right depends on 
-                what I think you will choose.
-
-
-
+       The contents of the box 
+       on your right depend on 
+     what I think you will choose.
 
         </content>
         <font>Bebas Neue</font>
-        <font-size>100</font-size>
-        <fg-color>#AAAAAA</fg-color>
+        <font-size>60</font-size>
+        <fg-color>#FFFFFF</fg-color>
         <bg-color>#000000</bg-color>
         <width>80</width>
         <height>10</height>

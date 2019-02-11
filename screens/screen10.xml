@@ -2,16 +2,13 @@
 <screen>
     <text>
         <content>
-            If I think you will open just box B, 
-            I will put a million dollars in it.
-
-
-
-
+       If I think you will open 
+      just the box on your right, 
+    I will put a million dollars in it.
         </content>
         <font>Bebas Neue</font>
-        <font-size>100</font-size>
-        <fg-color>#AAAAAA</fg-color>
+        <font-size>60</font-size>
+        <fg-color>#FFFFFF</fg-color>
         <bg-color>#000000</bg-color>
         <width>80</width>
         <height>10</height>

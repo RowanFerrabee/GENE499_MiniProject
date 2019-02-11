@@ -2,16 +2,15 @@
 <screen>
     <text>
         <content>
-                    Now make your choice.
-                    I have never been wrong. 
+        Now make your choice by
+	sliding open the doors.
 
-
-
-
+             And remember,
+	I have never been wrong. 
         </content>
         <font>Bebas Neue</font>
-        <font-size>100</font-size>
-        <fg-color>#AAAAAA</fg-color>
+        <font-size>60</font-size>
+        <fg-color>#FFFFFF</fg-color>
         <bg-color>#000000</bg-color>
         <width>100</width>
         <height>10</height>

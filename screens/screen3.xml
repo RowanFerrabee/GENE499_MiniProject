@@ -2,16 +2,13 @@
 <screen>
     <text>
         <content>
-            You humans are predictable.
-
-
-
+  You humans are predictable.
 
 
         </content>
         <font>Bebas Neue</font>
-        <font-size>100</font-size>
-        <fg-color>#AAAAAA</fg-color>
+        <font-size>70</font-size>
+        <fg-color>#FFFFFF</fg-color>
         <bg-color>#000000</bg-color>
         <width>80</width>
         <height>10</height>

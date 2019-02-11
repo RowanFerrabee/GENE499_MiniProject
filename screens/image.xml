@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <screen>
     <image>
-        <image-path>images/bm_logo.jpg</image-path>
+        <image-path>images/quad_bm_logo.jpg</image-path>
         <bg-color>#000000</bg-color>
-        <width>600</width>
-        <height>400</height>
+        <width>2400</width>
+        <height>1600</height>
         <fg-color>#FFFFFF</fg-color>
         <bg-color>#000000</bg-color>
     </image>

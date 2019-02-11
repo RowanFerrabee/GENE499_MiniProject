@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<screen>
+    <text>
+        <content>
+You may now claim your prize.
+        </content>
+        <font>Bebas Neue</font>
+        <font-size>70</font-size>
+        <fg-color>#FFFFFF</fg-color>
+        <bg-color>#000000</bg-color>
+        <width>100</width>
+        <height>10</height>
+    </text>
+    <text>
+        <content>
+(Please do not actually take
+ the money, I am very poor.)
+
+
+
+
+
+        </content>
+        <font>Bebas Neue</font>
+        <font-size>50</font-size>
+        <fg-color>#FFFFFF</fg-color>
+        <bg-color>#000000</bg-color>
+        <width>100</width>
+        <height>10</height>
+    </text>
+    <delay>
+        4000
+    </delay>
+</screen>
