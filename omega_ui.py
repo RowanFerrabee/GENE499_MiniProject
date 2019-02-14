@@ -1,9 +1,13 @@
+import time
+time.sleep(6)
+
 from populate_ui import *
 import tkinter
-import time
 import xml.etree.ElementTree as ET
 import RPi.GPIO as GPIO
-import time
+import os
+
+os.chdir("/home/pi/Documents/GENE499_MiniProject/")
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(4, GPIO.IN)
@@ -13,14 +17,24 @@ DEFAULT_MAX_WAIT_TIME = 25
 last_press = time.time()
 
 screen_index = 0
-screen_names = ['quad_bm_logo.jpg', 'screen1A.xml', 'screen1.xml', 'screen2.xml',
-                'screen2-3.xml', 'screen3.xml', 'screen4.xml',
-                'screen5.xml', 'screen6.xml', 'screen7.xml',
-                'screen8.xml', 'screen9.xml', 'screen10.xml',
-                'screen11.xml', 'screen12.xml', 'screen13.xml',
-                'end_screen.xml']
+screen_names = ['OmegaSlides.001.jpeg',
+                'OmegaSlides.002.jpeg',
+                'OmegaSlides.003.jpeg',
+                'OmegaSlides.004.jpeg',
+                'OmegaSlides.005.jpeg',
+                'OmegaSlides.006.jpeg',
+                'OmegaSlides.007.jpeg',
+                'OmegaSlides.008.jpeg',
+                'OmegaSlides.009.jpeg',
+                'OmegaSlides.010.jpeg',
+                'OmegaSlides.011.jpeg',
+                'OmegaSlides.012.jpeg',
+                'OmegaSlides.013.jpeg',
+                'OmegaSlides.014.jpeg',
+                'OmegaSlides.015.jpeg',
+                'OmegaSlides.016.jpeg']
 
-next_screen_delays = {14: 5, 15: 10, 16: 10}
+next_screen_delays = {14: 10, 15: 10}
 
 root = tkinter.Tk()
 root.attributes('-fullscreen', True)
@@ -76,14 +90,14 @@ def fastpoll_button(frame):
     button_input = GPIO.input(4)
 
     if (not(button_down) and button_input):
-        time.sleep(0.01)
+        time.sleep(0.05)
         if (GPIO.input(4) == button_input):
             button_down = True
             last_press = time.time()
             display_next_screen()
         
     if (button_down and not(button_input)):
-        time.sleep(0.01)
+        time.sleep(0.05)
         if (GPIO.input(4) == button_input):
             button_down = False
 
