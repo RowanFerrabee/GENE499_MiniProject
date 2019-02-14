@@ -17,24 +17,33 @@ DEFAULT_MAX_WAIT_TIME = 25
 last_press = time.time()
 
 screen_index = 0
-screen_names = ['OmegaSlides.001.jpeg',
-                'OmegaSlides.002.jpeg',
-                'OmegaSlides.003.jpeg',
-                'OmegaSlides.004.jpeg',
-                'OmegaSlides.005.jpeg',
-                'OmegaSlides.006.jpeg',
-                'OmegaSlides.007.jpeg',
-                'OmegaSlides.008.jpeg',
-                'OmegaSlides.009.jpeg',
-                'OmegaSlides.010.jpeg',
-                'OmegaSlides.011.jpeg',
-                'OmegaSlides.012.jpeg',
-                'OmegaSlides.013.jpeg',
-                'OmegaSlides.014.jpeg',
-                'OmegaSlides.015.jpeg',
-                'OmegaSlides.016.jpeg']
+# screen_names = ['OmegaSlides.001.jpeg',
+#                 'OmegaSlides.002.jpeg',
+#                 'OmegaSlides.003.jpeg',
+#                 'OmegaSlides.004.jpeg',
+#                 'OmegaSlides.005.jpeg',
+#                 'OmegaSlides.006.jpeg',
+#                 'OmegaSlides.007.jpeg',
+#                 'OmegaSlides.008.jpeg',
+#                 'OmegaSlides.009.jpeg',
+#                 'OmegaSlides.010.jpeg',
+#                 'OmegaSlides.011.jpeg',
+#                 'OmegaSlides.012.jpeg',
+#                 'OmegaSlides.013.jpeg',
+#                 'OmegaSlides.014.jpeg',
+#                 'OmegaSlides.015.jpeg',
+#                 'OmegaSlides.016.jpeg']
+screen_names = ['Omega_Script_V2.001.jpeg',
+                'Omega_Script_V2.002.jpeg',
+                'Omega_Script_V2.003.jpeg',
+                'Omega_Script_V2.004.jpeg',
+                'Omega_Script_V2.005.jpeg',
+                'Omega_Script_V2.006.jpeg',
+                'Omega_Script_V2.007.jpeg',
+                'Omega_Script_V2.008.jpeg',
+                'Omega_Script_V2.009.jpeg']
 
-next_screen_delays = {14: 10, 15: 10}
+# next_screen_delays = {14: 10, 15: 10}
 
 root = tkinter.Tk()
 root.attributes('-fullscreen', True)
