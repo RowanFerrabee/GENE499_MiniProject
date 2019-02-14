@@ -13,7 +13,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(4, GPIO.IN)
 
 button_down = False
-DEFAULT_MAX_WAIT_TIME = 25
+DEFAULT_MAX_WAIT_TIME = 30 
 last_press = time.time()
 
 screen_index = 0
@@ -43,7 +43,7 @@ screen_names = ['Omega_Script_V2.001.jpeg',
                 'Omega_Script_V2.008.jpeg',
                 'Omega_Script_V2.009.jpeg']
 
-# next_screen_delays = {14: 10, 15: 10}
+next_screen_delays = {}
 
 root = tkinter.Tk()
 root.attributes('-fullscreen', True)
@@ -133,6 +133,7 @@ def key_pressed(event):
         exit_tk()
 
 root.bind("<Key>", key_pressed)
+root.bind("<Button-1>", key_pressed)
 
 display_next_screen()
 fastpoll_button(screen_frame)
